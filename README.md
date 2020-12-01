@@ -94,7 +94,7 @@ git checkout d-proxy-to-new-site
 ```
 domain_name = "your-own-domain.com"
 region="us-east-1"
-proxy_target_domain_name = "foo.bar.com"
+proxy_target_base = "https://foo.bar.com"
 ```
 3.) run terraform
 ```
